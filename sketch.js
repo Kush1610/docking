@@ -11,7 +11,7 @@ bgImg= loadImage("Images/spacebg.jpg");
 bg2Img= loadImage("Images/bg.jpg");
 ebgImg= loadImage("Images/ebg.JPG");
 
-IssImage= loadImage("Images/iss.png");
+issImage= loadImage("Images/iss.png");
 spacecraft1Img= loadImage("Images/spacecraft1.png");
 spacecraft2Img= loadImage("Images/spacecraft2.png");
 spacecraft3Img= loadImage("Images/spacecraft3.png");
@@ -92,7 +92,7 @@ function setup() {
   spacecraft1.visible=false
 
   iss = createSprite(700,250, 50, 50);
-  iss.addImage("Iss",IssImage);
+  iss.addImage("Iss",issImage);
   iss.visible=false
 
   playb = createSprite(700,350, 50, 50);
