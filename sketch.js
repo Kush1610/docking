@@ -11,7 +11,7 @@ bgImg= loadImage("Images/spacebg.jpg");
 bg2Img= loadImage("Images/bg.jpg");
 ebgImg= loadImage("Images/ebg.JPG");
 
-IssImage= loadImage("Images/Iss.png");
+IssImage= loadImage("Images/iss.png");
 spacecraft1Img= loadImage("Images/spacecraft1.png");
 spacecraft2Img= loadImage("Images/spacecraft2.png");
 spacecraft3Img= loadImage("Images/spacecraft3.png");
