@@ -220,7 +220,7 @@ if(keyDown("RIGHT_ARROW"))
 
 drawSprites();
 
-if((spacecraft1.y===326)&&(spacecraft1.x===628))
+if(spacecraft1.y <= (iss.y+90) && spacecraft1.x <= (iss.x-10))
 {
   hasDocked=true
 
